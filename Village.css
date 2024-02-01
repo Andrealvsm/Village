@@ -1,0 +1,134 @@
+.body{
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+    height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
+  }
+
+.main-page {
+    background-image: url('Image/Fundo .png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-page .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(182, 182, 182, 0.9) !important;
+    padding: 7px;
+    border-radius: 10px;
+    /* Adicione uma borda na parte inferior da navbar */
+  }
+
+  .main-page .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    /* Estilos para o primeiro item do menu (Início) */
+    color: #fff; /* Cor do texto */
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-page .navbar .navbar-nav .nav-item .nav-link img{
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    margin: 2px; /* Ajuste o espaçamento conforme necessário */
+  }
+
+  .main-text {
+    color: #fff;
+    font-size: 43px;
+    font-style: italic;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-text2 {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#Village-contato {
+    text-align: center;
+    padding: 50px; /* Ajuste o espaçamento interno conforme necessário */
+    width: 100%; /* Largura da seção é 100% da largura da tela */
+    margin: 0 auto; /* Centralizar a seção na tela */
+    height: 500px; /* Altura da seção */
+    background-color: #eeeaea; /* Cor de fundo da seção */
+    border: 1px solid #d4cece; /* Borda da seção */
+    border-radius: 10px; /* Borda arredondada da seção */
+  }
+  #Village-contato h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  #Village-contato p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  .icon {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 5px; /* Ajuste o espaçamento conforme necessário */
+  }
+
+
+
+  #Village-localizacao{
+    width: 100%; /* Largura da seção é 100% da largura da tela */
+    height: 500px; /* Altura da seção */
+    background-color: #eeeaea; /* Cor de fundo da seção */
+    border: none; /* Remover a borda da seção */
+    border-radius: 10px; /* Borda arredondada da seção */
+  }
+  #Village-localizacao iframe{
+    width: 100%;
+    height: 100%;
+ }
+
+
+
+ #Village-rodape {
+    display: flex;
+    padding: 40px;
+    background-color: #2e2d2d; /* Cor de fundo do rodapé */
+    border-top: 1px solid #000; /* Borda superior preta */
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+  }
+  
+  .nome-consultorio {
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ddd;
+    margin-left: 15px; /* Adiciona espaço entre a logo e o nome do consultório */
+  }
+  
+  .icons-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Coloca os ícones no final do container */
+  }
+  
+  .whatsapp-icon,
+  .instagram-icon {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-left: 10px; /* Adiciona espaço entre os ícones */
+  }
+  
+  
