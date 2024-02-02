@@ -1,7 +1,7 @@
 .body{
-    margin: 0; /* Remove a margem padrão do body */
-    padding: 0; /* Remove o preenchimento padrão do body */
-    height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
+    margin: 0; 
+    padding: 0; 
+    height: auto; 
   }
 
 .main-page {
@@ -19,19 +19,19 @@
     background-color: rgba(182, 182, 182, 0.9) !important;
     padding: 7px;
     border-radius: 10px;
-    /* Adicione uma borda na parte inferior da navbar */
+    
   }
 
   .main-page .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
-    /* Estilos para o primeiro item do menu (Início) */
-    color: #fff; /* Cor do texto */
+    
+    color: #fff; 
     font-size: 18px;
     text-align: center;
   }
 
   .main-page .navbar .navbar-nav .nav-item .nav-link img{
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    margin: 2px; /* Ajuste o espaçamento conforme necessário */
+    width: 30px; 
+    margin: 2px; 
   }
 
   .main-text {
@@ -55,13 +55,13 @@
 
 #Village-contato {
     text-align: center;
-    padding: 50px; /* Ajuste o espaçamento interno conforme necessário */
-    width: 100%; /* Largura da seção é 100% da largura da tela */
-    margin: 0 auto; /* Centralizar a seção na tela */
-    height: 500px; /* Altura da seção */
-    background-color: #eeeaea; /* Cor de fundo da seção */
-    border: 1px solid #d4cece; /* Borda da seção */
-    border-radius: 10px; /* Borda arredondada da seção */
+    padding: 50px; 
+    width: 100%; 
+    margin: 0 auto; 
+    height: 500px; 
+    background-color: #eeeaea; 
+    border: 1px solid #d4cece; 
+    border-radius: 10px; 
   }
   #Village-contato h2 {
     font-size: 24px;
@@ -73,18 +73,18 @@
     line-height: 1.5;
   }
   .icon {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    margin-right: 5px; /* Ajuste o espaçamento conforme necessário */
+    width: 30px; 
+    margin-right: 5px; 
   }
 
 
 
   #Village-localizacao{
-    width: 100%; /* Largura da seção é 100% da largura da tela */
-    height: 500px; /* Altura da seção */
-    background-color: #eeeaea; /* Cor de fundo da seção */
-    border: none; /* Remover a borda da seção */
-    border-radius: 10px; /* Borda arredondada da seção */
+    width: 100%; 
+    height: 500px; 
+    background-color: #eeeaea;
+    border: none; 
+    border-radius: 10px; 
   }
   #Village-localizacao iframe{
     width: 100%;
@@ -96,8 +96,8 @@
  #Village-rodape {
     display: flex;
     padding: 40px;
-    background-color: #2e2d2d; /* Cor de fundo do rodapé */
-    border-top: 1px solid #000; /* Borda superior preta */
+    background-color: #2e2d2d; 
+    border-top: 1px solid #000; 
   }
   
   .logo-wrapper {
@@ -106,26 +106,26 @@
   }
   
   .logo {
-    width: 50px; /* Ajuste o tamanho conforme necessário */
+    width: 50px; 
   }
   
   .nome-consultorio {
-    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 18px; 
     color: #ddd;
-    margin-left: 15px; /* Adiciona espaço entre a logo e o nome do consultório */
+    margin-left: 15px; 
   }
   
   .icons-wrapper {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Coloca os ícones no final do container */
+    margin-left: auto; 
   }
   
   .whatsapp-icon,
   .instagram-icon {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
+    width: 30px; 
     height: auto;
-    margin-left: 10px; /* Adiciona espaço entre os ícones */
+    margin-left: 10px; 
   }
   
   
