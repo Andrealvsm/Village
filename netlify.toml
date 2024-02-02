@@ -1,3 +1,3 @@
 [build]
-  base = "."
-  publish = "VILLAGE"
+  base = "Documentos/Village"
+  publish = "Documentos/Village"
