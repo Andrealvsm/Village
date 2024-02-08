@@ -53,31 +53,103 @@
     font-style: italic;
   }
 
-#Village-contato {
+  #Village-contato {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding: 50px; 
-    width: 100%; 
-    margin: 0 auto; 
-    height: 500px; 
-    background-color: #eeeaea; 
-    border: 1px solid #d4cece; 
-    border-radius: 10px; 
+    align-items: flex-start;
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+    
+    background-color: #eeeaea;
   }
+  
+  .contato-info {
+    flex: 1;
+    margin: auto;
+    background-color: #eeeaea;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+  }
+  
   #Village-contato h2 {
     font-size: 24px;
     color: #333;
   }
+  
   #Village-contato p {
     font-size: 18px;
     color: #555;
     line-height: 1.5;
   }
+  
+  #Village-contato #formulario {
+    flex: 1;
+    align-items: center; 
+    flex-direction: column;
+    padding: 10px 25px;
+    background-color: #eeeaea;
+    width: 500px;
+  }
+  
+  #Village-contato #formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #Village-contato #formulario form input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  #Village-contato #formulario form textarea {
+    padding: 15px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #Village-contato #formulario form button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    background: #4a90e2;
+    border: 2px solid #cfcfcf;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    #Village-contato {
+      flex-direction: column;
+    }
+    #Village-contato #formulario {
+      order: 2;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .contato-info {
+      width: 100%; 
+    }
+  }
+  
+
+
   .icon {
     width: 30px; 
     margin-right: 5px; 
   }
-
-
 
   #Village-localizacao{
     width: 100%; 

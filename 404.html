@@ -25,6 +25,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <link rel="icon" href="Image/LogoVillage.png" type="image/x-icon">
 
 </head>
 
@@ -83,21 +84,36 @@
   </div>
 
   <div id="Village-contato">
-    <h2>CONTATO PARA AGENDAMENTO</h2>
-    <p>Avenida Del Rey, 111 - Alto Caiçaras, Belo Horizonte - MG, Brasil</p>
-    <p>Bloco A - Segundo Andar</p>
-    <p>
-      <img class="icon" src="Image/íconewhatsapp1.png" alt="WhatsApp">
-      <a href="https://wa.me/5531991391999" target="_blank">WhatsApp: +55 31 99139-1999</a>
-    </p>
-
-    <p>
-      <img class="icon" src="Image/íconemensagem(1).png" alt="Email">
-      <a href="mailto:villageodontologia@gmail.com">villageodontologia@gmail.com</a>
-    </p>
-
-    <p>Segunda à sexta - 08:00 às 18:00</p>
-    <p>Sábado - 08:00 às 12:00</p>
+    <div class="contato-info">
+      <h2>CONTATO PARA AGENDAMENTO</h2>
+      <p>Avenida Del Rey, 111 - Alto Caiçaras, Belo Horizonte - MG, Brasil</p>
+      <p>Torre A - Serra do Curral - Segundo Andar - Sala 211</p>
+      <p>
+        <img class="icon" src="Image/íconewhatsapp1.png" alt="WhatsApp">
+        <a href="https://wa.me/5531991391999" target="_blank">WhatsApp: +55 31 99139-1999</a>
+      </p>
+  
+      <p>
+        <img class="icon" src="Image/íconemensagem(1).png" alt="Email">
+        <a href="mailto:villageodontologia@gmail.com">villageodontologia@gmail.com</a>
+      </p>
+  
+      <p>Segunda à sexta - 08:00 às 18:00</p>
+      <p>Sábado - 08:00 às 12:00</p>
+    </div>
+    <section id="formulario">
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        
+        <input type="text" name="name" placeholder="Nome">
+        <input type="text" name="Phone" placeholder="Telefone">
+        <input type="email" nome="email" placeholder="Digite seu e-mail">
+        <textarea name="message" id="" cols="20" rows="5" placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="accessKey" value="4099ed63-72f2-4960-a2e2-32f793c97808">
+        <input type="hidden" name="redirectTo" value="https://villageodontologia.com/">
+      </form>
+    </section>
   </div>
 
   <div id="Village-localizacao">
